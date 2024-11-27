@@ -1,1 +1,138 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-default,
+.navbar-toggle {
+    background-color: #5C5C5C !important;
+}
+
+span.icon-bar {
+    background-color: #FF6347 !important;
+}
+
+a.mybrand {
+    color: #1E90FF !important;
+}
+
+a:hover.myb-1 {
+    color: #32CD32 !important;
+}
+
+.mymenu li a {
+    color: #555 !important;
+}
+
+h1 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #444; 
+}
+
+h3 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.bg-1 {
+    background-color: #D3D3D3;
+    color: #111;
+    width: 95%;
+    padding: 30px;
+    margin-bottom: 40px; 
+    border-radius: 10px;
+}
+
+.bg-2 {
+    margin-top: 20px;
+    padding: 25px;
+    margin-bottom: 60px;
+    background-color: #E6E6FA; 
+}
+
+.bg-3 {
+    background-color: #222; 
+    color: #eee; 
+    text-align: left; 
+    width: 90%; 
+    margin-top: 25px; 
+    padding: 40px; 
+    border: 2px solid #fff; 
+}
+
+.img-s img {
+    width: 300px; 
+    margin-bottom: 10px; 
+}
+
+.myimg img {
+    margin-right: 10px; 
+}
+
+.content {
+    font-size: 40px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+.logo-u {
+    width: 140px; 
+    border: 1px solid #ccc; 
+    margin-right: 15px; 
+}
+
+.logo-c {
+    width: 100px; 
+    border: 1px solid #ccc; 
+    margin-top: 10px; 
+}
+
+.navbar {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.navbar-nav li a:hover {
+    color: #008080 !important; 
+}
+
+footer a:hover {
+    color: #DC143C !important; 
+}
+
+.hover-f:hover {
+    color: #000 !important; 
+    background-color: #FFB6C1 !important; 
+}
+
+@font-face {
+    font-family: 'custom-icons';
+    src: url('../fonts/custom-icons.ttf') format('truetype'); /* Было glyphicons-halfing-regular */
+}
+
+.glyphicon-chevron-up a:hover {
+    color: #4B0082; 
+}
+
+@media screen and (max-width: 768px) {
+    .bg-1 {
+        margin-top: 60px; /* Было 80px */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bg-1 {
+        margin-top: 70px; /* Было 80px */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bg-1 {
+        margin-top: 60px; /* Было 80px */
+        margin-bottom: 30px; /* Было 20px */
+    }
+}
 
