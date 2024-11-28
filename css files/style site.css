@@ -110,7 +110,7 @@ footer a:hover {
 
 @font-face {
     font-family: 'custom-icons';
-    src: url('../fonts/custom-icons.ttf') format('truetype'); /* Было glyphicons-halfing-regular */
+    src: url('../fonts/glyphicon.ttf') format('truetype');
 }
 
 .glyphicon-chevron-up a:hover {
@@ -119,20 +119,20 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
     .bg-1 {
-        margin-top: 60px; /* Было 80px */
+        margin-top: 60px; 
     }
 }
 
 @media screen and (max-width: 992px) {
     .bg-1 {
-        margin-top: 70px; /* Было 80px */
+        margin-top: 70px; 
     }
 }
 
 @media screen and (max-width: 1200px) {
     .bg-1 {
-        margin-top: 60px; /* Было 80px */
-        margin-bottom: 30px; /* Было 20px */
+        margin-top: 60px; 
+        margin-bottom: 30px; 
     }
 }
 
